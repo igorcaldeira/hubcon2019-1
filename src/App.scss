@@ -8,7 +8,7 @@ body {
   padding: 0;
 }
 h1 {
-  color: $base-color;
+  color: $black-color;
 }
 
 h3,
@@ -39,26 +39,50 @@ input {
 }
 
 button {
-  width: 200px;
+  min-width: 200px;
   height: 55px;
+
+  position: relative;
 
   margin-left: 20px;
 
-  border: 0;
-  border-radius: $space-xxs;
-  box-shadow: $shadow-card;
+  border: 2px solid $black-color;
+  border-radius: 0;
 
-  background-color: $accent-green;
-  color: white;
+  background-color: transparent;
+  color: $black-color;
   font-weight: 700;
 
   transition: 1s;
 
   cursor: pointer;
 
+  &::before {
+    content: " ";
+    width: 1.5625rem;
+    height: 2px;
+
+    background: black;
+
+    position: absolute;
+    top: 50%;
+    left: 1.5em;
+
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: background 0.3s linear, width 0.3s linear;
+    transition: background 0.3s linear, width 0.3s linear;
+  }
+
   &:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    border-color: $base-color;
+    color: $base-color;
+
+    &::before {
+      width: 0.9375rem;
+      background: $base-color;
+    }
   }
 }
