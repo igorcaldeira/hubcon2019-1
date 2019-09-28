@@ -1,0 +1,51 @@
+@keyframes example {
+    0% {clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);}
+    50% {clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);}
+    100% {clip-path: circle(50% at 50% 50%);}
+}
+
+.hero-columns{
+    margin-top: 7.2rem;
+    height: calc(100vh - 8rem);
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.logo-content{
+    padding-top: 35%;
+}
+
+.logo-content img{
+    width: 40rem;
+    float: left;
+}
+
+.geom-content{
+    padding-top: 25%;
+    position: relative;
+}
+
+.formats{
+    position: relative;
+}
+  
+.geometric-formats-big{
+    width: 40rem;
+    height: 40rem;
+    filter: grayscale(1);
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
+
+.geometric-formats-small{
+    position: absolute;
+    top: 15rem;
+    left: 25rem;
+    display: block; 
+    content: ' ';
+    width: 10rem;
+    height: 10rem;
+    background-color: #E74F6B;
+    animation: example 3s infinite;
+}

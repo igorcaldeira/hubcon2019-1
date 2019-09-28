@@ -1,58 +1,68 @@
-<p align="center"><h1>Svelte Project</h1></p>
-<h3>Under development</h3>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Introduction
+## Available Scripts
 
-This Svelte app is based on the project template at [https://github.com/sveltejs/template](https://github.com/sveltejs/template), with the addition of SASS/SCSS support from [svelte-preprocess](https://github.com/kaisermann/svelte-preprocess).
+In the project directory, you can run:
 
-## Structure
+### `npm start`
 
-You can read more about it on: `STRUCTURE.md`
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Get started
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-1 - Install the dependencies
+### `npm test`
 
-```bash
-cd svelte-project
-npm install
-```
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-2 - Then start [Rollup](https://rollupjs.org):
+### `npm run build`
 
-```bash
-npm run dev
-```
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-3 - Navigate to [localhost:5000](http://localhost:5000). You should see your app running.
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-## Deploying to the web
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### With [now](https://zeit.co/now)
+### `npm run eject`
 
-1 - Install `now` if you haven't already:
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-```bash
-npm install -g now
-```
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-2 - Then, from within your project folder:
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-```bash
-cd public
-now
-```
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## StoryBook
+## Learn More
 
-https://rafaelcamaram.github.io/svelte-project/storybook-static/
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Contribute
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Coming soon.
+### Code Splitting
 
-## Authors
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-Svelte-Project is a project by:
+### Analyzing the Bundle Size
 
-[<img src="https://avatars1.githubusercontent.com/u/9087886?v=4" width="100px;"/><br /><sub><b>Rafael Câmara</b></sub>](https://github.com/rafaelcamaram)<br />[💻](https://github.com/dawnlabs/carbon/commits?author=rafaelcamaram "Code")
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

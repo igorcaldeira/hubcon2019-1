@@ -1,0 +1,37 @@
+@keyframes example {
+    0% {clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);}
+    50% {clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);}
+    100% {clip-path: circle(50% at 50% 50%);}
+}
+
+.talk-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 0 2rem 0;
+}
+
+.talks-group{
+    padding-top: 7rem;
+}
+
+.person-name{
+    position: relative;
+}
+
+.person-name::before{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 11%;
+    height: 1.3rem;
+    background-color: #E74F6B;
+    left: -0.5rem;
+    bottom: 0.5rem;
+    z-index: -1;
+}
+
+.talk-text{
+    text-align: left;
+}
