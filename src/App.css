@@ -65,3 +65,19 @@ h3{
 .app-link {
   color: #c209d3;
 }
+
+.sympla-wrapper{
+  width: 100%;
+  max-width: 520px;
+  height: 300px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  zoom: 0.6;
+  z-index: 5000;
+  overflow: hidden !important;
+}
+
+.sympla-wrapper iframe{
+  height: 600px !important;
+}
