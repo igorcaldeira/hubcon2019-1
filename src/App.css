@@ -1,6 +1,21 @@
+@font-face {
+  font-family: 'Late Font';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/late-font.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Late Font';
+  font-style: normal;
+  font-weight: bold;
+  src: url('./fonts/late-font-bold.ttf') format('truetype'),
+}
+
 html {
   font-size: 62.5%; /* Now 10px = 1rem! */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Late Font', 'Montserrat', sans-serif;
+  font-weight: normal;
   padding: 0;
   margin: 0;
 }
@@ -11,6 +26,7 @@ body {
   line-height: 1.5; /* a nice line-height */
   padding: 0;
   margin: 0;
+  font-weight: normal;
 }
 
 a{
@@ -22,6 +38,7 @@ a{
 h3{
   font-size: 1rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .container{
@@ -47,4 +64,29 @@ h3{
 
 .app-link {
   color: #c209d3;
+}
+
+.sympla-wrapper{
+  opacity: 0.9;
+  width: 100%;
+  max-width: 520px;
+  height: 300px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  zoom: 0.6;
+  z-index: 5000;
+  overflow: hidden !important;
+  -webkit-animation-name: fadein; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation-name: fadein; /* Firefox < 16 */
+   -ms-animation-name: fadein; /* Internet Explorer */
+    -o-animation-name: fadein; /* Opera < 12.1 */
+       animation-name: fadein;
+  animation-duration: 4s;
+  animation-delay: 12s;
+  
+}
+
+.sympla-wrapper iframe{
+  height: 600px !important;
 }

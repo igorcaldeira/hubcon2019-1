@@ -15,3 +15,31 @@
     background-color: rgba(0, 0, 0, 0.418);
     z-index: 2;
 }
+
+.address {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17rem;
+}
+
+.address-date {
+    display: block;
+    font-weight: bolder;
+    font-size: xx-large;
+    letter-spacing: 0.6rem;
+    padding-bottom: 5rem;
+}
+
+.address-place {
+    font-weight: bolder;
+    font-size: xx-large;
+    letter-spacing: 0.6rem;
+    display: block;
+}
+
+.address-street {
+    display: block;
+    margin: 0;
+    font-size: smaller;
+}
