@@ -67,6 +67,7 @@ h3{
 }
 
 .sympla-wrapper{
+  opacity: 0.9;
   width: 100%;
   max-width: 520px;
   height: 300px;
@@ -76,6 +77,14 @@ h3{
   zoom: 0.6;
   z-index: 5000;
   overflow: hidden !important;
+  -webkit-animation-name: fadein; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation-name: fadein; /* Firefox < 16 */
+   -ms-animation-name: fadein; /* Internet Explorer */
+    -o-animation-name: fadein; /* Opera < 12.1 */
+       animation-name: fadein;
+  animation-duration: 4s;
+  animation-delay: 12s;
+  
 }
 
 .sympla-wrapper iframe{
