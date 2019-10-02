@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from '../logo.svg';
-import './Navbar.css'
+import './Navbar.css';
 
 const Navbar = () => <nav>
   <div className='container'>
     <div className='nav-logo'>
       <img src={logo} className="app-logo" alt="logo" />
     </div>
-    <div>
+    <div className='menu'>
       <ul>
         <li>
           <a href='#inicio' className='menu-link'>Início</a>
@@ -22,6 +22,9 @@ const Navbar = () => <nav>
           <a href='#informacoes' className='menu-link'>Informações</a>
         </li>
       </ul>
+    </div>
+    <div class='buttomInscricao'>
+    <buttom type="buttom" name="inscricao" className="inscricao" onClick={() => window.open("https://www.sympla.com.br/hubcon__670145")}><span><hr/></span> Inscrição</buttom>
     </div>
   </div>
 </nav>
