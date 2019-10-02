@@ -7,7 +7,11 @@ class MapContainer extends Component {
     return (
       <div id="map">
         <div className='overlay-map'>
-          <h1>una aimorés</h1>
+          <div className='address'>
+            <span className='address-date'>07 DEZEMBRO</span>
+            <span className='address-place'>UNA AIMORÉS</span>
+            <span className='address-street'>Rua dos Aimorés, 1451 - Lourdes, Belo Horizonte - MG, 30140-071</span>
+          </div>
         </div>
         <Map
           google={this.props.google}
