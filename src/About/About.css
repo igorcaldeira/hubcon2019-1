@@ -33,8 +33,14 @@
 
 .giant-text-bg{
     position: absolute;
-    top: 3rem;
+    top: 5rem;
     left: 0;
     font-weight: bolder;
-    font-size: 10rem;
+    font-size: 15rem;
+    color: rgba(255, 255, 255, 0.327);
+}
+
+.about-content .container {
+    height: 300px;
+    overflow: hidden;
 }
