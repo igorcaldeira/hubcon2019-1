@@ -81,6 +81,7 @@ const Talks = () => {
               </div>
             );
           })}
+          <center><h2>Mais atrações ainda estão sendo confirmadas!</h2></center>
         </div>
       </div>
     </section>
