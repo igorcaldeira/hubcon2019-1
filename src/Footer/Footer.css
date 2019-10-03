@@ -1,5 +1,74 @@
+@media (max-width: 900px) 
+{
+    .menu {
+        display: none;
+    }
+    
+    .buttomInscricao {
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .buttomInscricao buttom {
+        text-align: center;
+        margin-left: 15rem;
+        padding: 10px 20rem 10px 20rem !important;
+    }
+    
+    .buttomInscricao buttom span {
+        left: 18rem !important;
+    }
+    
+}
+
+@media (max-width: 500px) 
+{
+    .menu {
+        display: none;
+    }
+    .buttomInscricao buttom {
+        text-align: center;
+        margin-left: 15rem;
+        padding: 10px 4rem 10px 4rem !important;
+    }
+    
+    .buttomInscricao buttom span {
+        left: 2rem !important;
+    }
+    .media{
+        top:0px;
+    }
+
+    .footer-columns {
+        padding: 10px !important;
+        padding-bottom: 200px !important;
+    }
+
+    .hubcon {
+        font-size: 10px !important;
+    }
+
+    .content {
+        font-size: 10px !important;
+    }
+
+    .suport-image {
+        max-width: 80% !important;
+    }
+
+    .social {
+        font-size: 10px !important;
+        width: 40% !important;
+    }
+    .lateralBar{
+        display: none;
+    }
+
+}
+
 #footer{
     position: relative;
+    padding: 3rem;
 }
 
 #footer::after{
@@ -18,4 +87,49 @@
     grid-template-columns: 1fr 1fr;
     max-width: 100%;
     overflow: hidden;
+}
+
+.suport-image{
+    max-width:18%;
+    height:auto;
+    float: left;
+    padding: 5px;
+}
+
+.content{
+    float: left;
+    text-align: left;
+}
+
+.media{
+    float: right;
+}
+
+.lateralBar{
+    border-top-color: black;
+    border-top-style: groove;
+    width: 17%;
+    float: right;
+    margin-top: 10px;
+}
+
+.social{
+    background-color: #e74f6b;
+    width: 18%;
+    float: left;
+    color: #fff;
+    margin-left: 58%;
+}
+
+.hubcon{
+    font-size: 34px;
+}
+
+.ioasys-logo{
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+.una-logo{
+    margin-top: 1rem;
 }
