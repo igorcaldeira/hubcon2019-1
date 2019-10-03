@@ -68,6 +68,7 @@
 
 #footer{
     position: relative;
+    padding: 3rem;
 }
 
 #footer::after{
@@ -122,4 +123,13 @@
 
 .hubcon{
     font-size: 34px;
+}
+
+.ioasys-logo{
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+.una-logo{
+    margin-top: 1rem;
 }
