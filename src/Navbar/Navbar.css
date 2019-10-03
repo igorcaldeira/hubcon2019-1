@@ -54,29 +54,17 @@ ul {
   padding-top: 0.8rem;
 }
 
-<<<<<<< HEAD
 li {
   display: inline-block;
   list-style: none;
   padding-left: 3rem;
+  position: relative;
 }
 
 li a {
   display: inline-block;
   cursor: pointer;
-=======
-li{
-    display: inline-block;
-    list-style: none;
-    padding-left: 3rem;
-    position: relative;
-}
-
-li a{
-    display: inline-block;
-    cursor: pointer;
-    padding-left: 6px;
->>>>>>> 31290df643f5403f4b6ef587d4091e59372e5329
+  padding-left: 6px;
 }
 
 .menu {
@@ -123,7 +111,6 @@ li a{
 }
 
 .buttomInscricao buttom::after {
-<<<<<<< HEAD
   content: " ";
   display: block;
   width: 30px;
@@ -134,56 +121,36 @@ li a{
   bottom: -2px;
 }
 
-.inicio {
-  height: 100vh;
-}
-=======
-    content: ' ';
-    display: block;
-    width: 30px;
-    height: 10px;
-    background-color: #FFF;
-    position: absolute;
-    right: 10px;
-    bottom: -2px;
-}
-
-
 .strikethrough {
-	display: inline-block;
-	position: relative;
-	
+  display: inline-block;
+  position: relative;
 }
 
 .strikethrough:after {
-	content: '';
-	position: absolute;
-	display: block;
-	width: 100%;
-	height: 2px;
-	
-	background: black;
-	transform-origin: center left;
-	animation: strikethrough 1s 0.5s cubic-bezier(.55, 0, .1, 1) 1;
-	transition: transform 0.5s cubic-bezier(.55, 0, .1, 1);
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+
+  background: black;
+  transform-origin: center left;
+  animation: strikethrough 1s 0.5s cubic-bezier(0.55, 0, 0.1, 1) 1;
+  transition: transform 0.5s cubic-bezier(0.55, 0, 0.1, 1);
 }
 
 .strikethrough:hover:after {
-	transform: scaleX(0);
-	transform-origin: center right;
+  transform: scaleX(0);
+  transform-origin: center right;
 }
-
-
-
 
 /* Keyframes for initial animation */
 
 @keyframes strikethrough {
-	from {
-		transform: scaleX(0);
-	}
-	to {
-		transform: scaleX(1);
-	}
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
 }
->>>>>>> 31290df643f5403f4b6ef587d4091e59372e5329
