@@ -5,6 +5,7 @@
     color: white;
     position: relative;
     overflow: hidden;
+    min-height: 380px;
 }
 
 .about-content{
@@ -38,7 +39,7 @@
     margin-left: 35rem;
     font-weight: bolder;
     font-size: 10rem;
-    color: rgba(255, 255, 255, 0.327);
+    color: rgba(255, 255, 255, 0.003);
     width: 100000rem;
     text-align: left;
     margin-top: 5rem;
