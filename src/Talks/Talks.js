@@ -1,5 +1,5 @@
 import React from "react";
-import tiagodrumond from "./tiagodrumond.jpg";
+import tiagodrumond from "./tiagodrumond.png";
 import kamilarodrigues from "./kamilarodrigues.jpg";
 import diel from "./diel.jpeg";
 
