@@ -43,7 +43,7 @@ const Talks = () => {
     
   ];
   return (
-    <section id="inicio">
+    <section id="palestrantes">
       <div className="container">
         <div className="talks-group">
           {talks.map((item, index) => {

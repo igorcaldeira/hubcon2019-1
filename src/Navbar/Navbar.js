@@ -19,7 +19,7 @@ const Navbar = () => <nav>
           <a href='#palestrantes' className='menu-link'>Palestrantes</a>
         </li>
         <li className='strikethrough'>
-          <a href='#informacoes' className='menu-link'>Informações</a>
+          <a href='#map' className='menu-link'>Informações</a>
         </li>
       </ul>
     </div>
