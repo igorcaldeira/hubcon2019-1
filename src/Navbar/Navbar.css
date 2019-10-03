@@ -1,124 +1,124 @@
-@media (max-width: 900px) 
-{
-    .menu {
-        display: none;
-    }
-    
-    .buttomInscricao {
-        width: 100%;
-        margin-top: 15px;
-    }
-    
-    .buttomInscricao buttom {
-        text-align: center;
-        margin-left: 15rem;
-        padding: 10px 20rem 10px 20rem !important;
-    }
-    
-    .buttomInscricao buttom span {
-        left: 18rem !important;
-    }
-    
-}
+@media (max-width: 900px) {
+  .menu {
+    display: none;
+  }
 
-@media (max-width: 500px) 
-{
-    .menu {
-        display: none;
-    }
-    .buttomInscricao buttom {
-        text-align: center;
-        margin-left: 15rem;
-        padding: 10px 4rem 10px 4rem !important;
-    }
-    
-    .buttomInscricao buttom span {
-        left: 2rem !important;
-    }
-
-}
-
-nav{
+  .buttomInscricao {
     width: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    box-shadow: 0 0.1rem 1.5rem rgba(0, 0, 0, 0.1);
-    height: 73px;
-    z-index: 999;
-    background-color: #FFF;
+    margin-top: 15px;
+  }
+
+  .buttomInscricao buttom {
+    text-align: center;
+    margin-left: 15rem;
+    padding: 10px 20rem 10px 20rem !important;
+  }
+
+  .buttomInscricao buttom span {
+    left: 18rem !important;
+  }
 }
 
-.nav-logo{
-    display: block;
-    float: left;
+@media (max-width: 500px) {
+  .menu {
+    display: none;
+  }
+  .buttomInscricao buttom {
+    text-align: center;
+    margin-left: 15rem;
+    padding: 10px 4rem 10px 4rem !important;
+  }
+
+  .buttomInscricao buttom span {
+    left: 2rem !important;
+  }
 }
 
-ul{
-    padding-top: 0.8rem;
+nav {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0.1rem 1.5rem rgba(0, 0, 0, 0.1);
+  height: 73px;
+  z-index: 999;
+  background-color: #fff;
 }
 
-li{
-    display: inline-block;
-    list-style: none;
-    padding-left: 3rem;
+.nav-logo {
+  display: block;
+  float: left;
 }
 
-li a{
-    display: inline-block;
-    cursor: pointer;
+ul {
+  padding-top: 0.8rem;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 3rem;
+}
+
+li a {
+  display: inline-block;
+  cursor: pointer;
 }
 
 .menu {
-    text-align: center;
-    width: 90%;
-    font-weight: bold;
+  text-align: center;
+  width: 90%;
+  font-weight: bold;
 }
 
 .buttomInscricao {
-    float: right;
-    position: absolute;
-    right: 0rem;
-    top: 8px;
+  float: right;
+  position: absolute;
+  right: 0rem;
+  top: 8px;
 }
 
 .buttomInscricao buttom {
-    position: relative;
-    border: 1px solid;
-    padding: 10px 40px 10px 50px;
-    font-weight: bold;
-    cursor: pointer;
+  position: relative;
+  border: 1px solid;
+  padding: 10px 40px 10px 50px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .buttomInscricao buttom span {
-    position: absolute;
-    left: 30px;
-    width: 10px;
-    top: 11px;
+  position: absolute;
+  left: 30px;
+  width: 10px;
+  top: 11px;
 }
 
-.buttomInscricao buttom span hr{
-    border: 1px solid #000;
+.buttomInscricao buttom span hr {
+  border: 1px solid #000;
 }
 
 .buttomInscricao buttom::before {
-    content: ' ';
-    display: block;
-    width: 20px;
-    height: 10px;
-    background-color: #FFF;
-    position: absolute;
-    left: 10px;
-    top: -2px;
+  content: " ";
+  display: block;
+  width: 20px;
+  height: 10px;
+  background-color: #fff;
+  position: absolute;
+  left: 10px;
+  top: -2px;
 }
 
 .buttomInscricao buttom::after {
-    content: ' ';
-    display: block;
-    width: 30px;
-    height: 10px;
-    background-color: #FFF;
-    position: absolute;
-    right: 10px;
-    bottom: -2px;
+  content: " ";
+  display: block;
+  width: 30px;
+  height: 10px;
+  background-color: #fff;
+  position: absolute;
+  right: 10px;
+  bottom: -2px;
+}
+
+.inicio {
+  height: 100vh;
 }
