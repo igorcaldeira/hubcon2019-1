@@ -35,6 +35,34 @@
     .buttomInscricao buttom span {
         left: 2rem !important;
     }
+    .media{
+        top:0px;
+    }
+
+    .footer-columns {
+        padding: 10px !important;
+        padding-bottom: 200px !important;
+    }
+
+    .hubcon {
+        font-size: 10px !important;
+    }
+
+    .content {
+        font-size: 10px !important;
+    }
+
+    .suport-image {
+        max-width: 80% !important;
+    }
+
+    .social {
+        font-size: 10px !important;
+        width: 40% !important;
+    }
+    .lateralBar{
+        display: none;
+    }
 
 }
 
