@@ -1,48 +1,53 @@
 import React from "react";
-import someone from "./kn.jpeg";
+import tiagodrumond from "./tiagodrumond.jpg";
+import kamilarodrigues from "./kamilarodrigues.jpg";
+import diel from "./diel.jpeg";
+
 import "./Talks.css";
 
 const Talks = () => {
   const talks = [
     {
-      person: "Tiago Drummond",
-      talk: "Defesa em profundidade",
-      talkDescription: "Lorem lorem lorem",
+      person: "Tiago Drumond",
+      talk: "Como fazer seus logs parecerem mais bonitos",
+      talkDescription: "Como implementar Elasticsearch, Logstash, Syslog e Grafana para coletar seus logs e gerar uma interface bonita para os gestores, e quem sabe assim receber uma promoção. :D",
       personDescriptionCall: "Conheça o Tiago",
-      personDescription: "Desenvolvedor Lorem lorem lorem",
-      image: someone
+      personDescription: "Trabalha com TI a mais de 20 anos, e atualmente trabalha na ioasys como gestor de desenvolvimento e arquiteto.",
+      image: tiagodrumond
     },
     {
-      person: "Tiago Drummond",
-      talk: "Defesa em profundidade",
-      talkDescription: "Lorem lorem lorem",
-      personDescriptionCall: "Conheça o Tiago",
-      personDescription: "Desenvolvedor Lorem lorem lorem",
-      image: someone
+      person: "Kamila Rodrigues",
+      talk: "Cases, situações e desafios da aplicação do Design Sprint 2.0",
+      talkDescription: "Vamos conversar sobre o método Design Sprint 2.0, quais as suas vantagens e em quais casos deve ser usado, no fim apresentaremos cases de projetos que foram desenvolvidos usando a metodologia.",
+      personDescriptionCall: "Conheça a Kamila",
+      personDescription: "Facilitar o desenvolvimento de produtos e serviços mais inovadores tem sido minha missão. Sou designer de produtos, e trabalho no time de transformação digital da ioasys aplicando as metodologias e ferramentas do design no processo de inovação e desenvolvimento de produtos/serviços das empresas. Quer conversar comigo? Me pergunte sobre Design Thinking!",
+      image: kamilarodrigues
     },
     {
-      person: "Tiago Drummond",
-      talk: "Defesa em profundidade",
-      talkDescription: "Lorem lorem lorem",
-      personDescriptionCall: "Conheça o Tiago",
-      personDescription: "Desenvolvedor Lorem lorem lorem",
-      image: someone
+      person: "Diel Duarte",
+      talk: "Jogos amam State Machines, mas e o seu Front-end?",
+      talkDescription: "Vamos conversar sobre State Machines sendo utilizado no front-end, quais as vantagens e desvantagens construindo um jogo como exemplo, reduzindo complexidade, possíveis bugs e conflitos de estados.",
+      personDescriptionCall: "Conheça o Diel",
+      personDescription: "Compartilhar conhecimento tem sido uma das melhores maneiras de aprender, sou um Front-End engineer que trabalha remoto e adoro viajar pelo mundo. Quer iniciar uma conversa ? me pergunte sobre JS.",
+      image: diel
     },
     {
-      person: "Tiago Drummond",
-      talk: "Defesa em profundidade",
-      talkDescription: "Lorem lorem lorem",
-      personDescriptionCall: "Conheça o Tiago",
-      personDescription: "Desenvolvedor Lorem lorem lorem",
-      image: someone
-    }
+      person: "Hugo Ferreira e Gabriel Oliva",
+      talk: "Uma arquitetura para a todos aproximar: abordando Clean Architecture em Mobile",
+      talkDescription: "É possível aproximar desenvolvedores de plataformas mobile diferentes e ainda facilitar o intercâmbio deles entre elas? Nós acreditamos que sim e que uma boa arquitetura é fundamental para isto. Vamos ver uma abordagem aplicada de Arquitetura Limpa para Android e iOS onde poderemos entender mais profundamente como podemos tirar vantagem das semelhanças entre Swift e Kotlin, além, é claro, dos benefícios da Arquitetura Limpa.",
+      personDescriptionCall: "Conheça o Hugo e Gabriel",
+      personDescription: <><strong>Hugo Ferreira</strong>  Bacharel em Sistemas de Informação pela PUC Minas. Desenvolvedor de software desde 2007, se dedica ao desenvolvimento para Android desde 2011. Sua vida de desenvolvedor mudou após experimentar Arquitetura Limpa na vida real e agora se aventura em espalhar a Palavra em favor de bons projetos de software.<br/><strong>Gabriel Oliva</strong> Arquiteto mobile, desenvolvedor iOS e chapter leader do CocoaHeads Belo Horizonte. É um grande entusiasta do mundo Apple e assuntos envolvendo acessibilidade, arquitetura de projetos e engenharia de software. Nas horas vagas gosta de se aventurar como baterista e é apaixonado por café.</>,
+      special: true,
+      image: <div className="double-take" />
+    },
+    
   ];
   return (
     <section id="inicio">
       <div className="container">
         <div className="talks-group">
           {talks.map((item, index) => {
-            const ImageTalk = () => <img src={item.image} alt={item.person + " foto"} />;
+            const ImageTalk = () => !item.special ? <img src={item.image} alt={item.person + " foto"} className='personPhoto' /> : item.image;
             const DescriptionTalk = () => (
               <div className="talk-text">
                 <h1>{item.talk}</h1>

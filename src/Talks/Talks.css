@@ -21,11 +21,17 @@
 }
 
 .talks-group {
-  padding-top: 7rem;
+  padding: 7rem 0;
 }
 
 .person-name {
   position: relative;
+}
+
+.personPhoto {
+  max-width: 400px;
+  max-height: 400px;
+  filter: grayscale(1);
 }
 
 .person-name::before {
@@ -116,4 +122,13 @@
   .person-name::before {
     left: 32px;
   }
+}
+
+.double-take{
+  content: ' ';
+  width: 100%;
+  height: 300px;
+  background: url('./gabrieloliva.jpeg') right bottom no-repeat, url('./hugoferreira.jpeg') left bottom no-repeat;
+  background-size: 50%, 57%;
+  overflow: hidden;
 }
