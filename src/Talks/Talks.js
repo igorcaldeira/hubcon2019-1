@@ -46,6 +46,7 @@ const Talks = () => {
     <section id="palestrantes">
       <div className="container">
         <div className="talks-group">
+          <div><center><h2>Veja as talks já confirmadas!</h2></center><br /><br /></div>
           {talks.map((item, index) => {
             const ImageTalk = () => !item.special ? <img src={item.image} alt={item.person + " foto"} className='personPhoto' /> : item.image;
             const DescriptionTalk = () => (
@@ -81,7 +82,7 @@ const Talks = () => {
               </div>
             );
           })}
-          <center><h2>Mais atrações ainda estão sendo confirmadas!</h2></center>
+          <center><h2>Em breve, mais novidades e conteúdos no evento!</h2></center>
         </div>
       </div>
     </section>
