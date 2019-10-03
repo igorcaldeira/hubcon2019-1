@@ -16,12 +16,13 @@
   grid-template-columns: 1fr 1fr;
   max-width: 100%;
   overflow: hidden;
-  padding: 0 0 2rem 0;
+  padding: 0 0 7rem 0;
   grid-column-gap: 10%;
 }
 
 .talks-group {
-  padding: 7rem 0;
+  padding: 10rem;
+  padding-bottom: 5rem;
 }
 
 .person-name {
@@ -141,4 +142,5 @@
   background: url('./gabrieloliva.jpeg') right bottom no-repeat, url('./hugoferreira.jpeg') left bottom no-repeat;
   background-size: 50%, 57%;
   overflow: hidden;
+  filter: grayscale(1);
 }

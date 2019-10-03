@@ -4,7 +4,7 @@ import './About.css'
 const About = () => <section id="sobre">
   <div class="video-background">
     <div class="video-foreground">
-      <iframe src="https://www.youtube.com/embed/4L5u4oUP0Y0?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/4L5u4oUP0Y0?controls=0&showinfo=0&rel=0&autoplay=1&mute=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
   <div className='about-content'>

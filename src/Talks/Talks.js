@@ -8,19 +8,11 @@ import "./Talks.css";
 const Talks = () => {
   const talks = [
     {
-      person: "Tiago Drumond",
-      talk: "Como fazer seus logs parecerem mais bonitos",
-      talkDescription: "Como implementar Elasticsearch, Logstash, Syslog e Grafana para coletar seus logs e gerar uma interface bonita para os gestores, e quem sabe assim receber uma promoção. :D",
-      personDescriptionCall: "Conheça o Tiago",
-      personDescription: "Trabalha com TI a mais de 20 anos, e atualmente trabalha na ioasys como gestor de desenvolvimento e arquiteto.",
-      image: tiagodrumond
-    },
-    {
       person: "Kamila Rodrigues",
       talk: "Cases, situações e desafios da aplicação do Design Sprint 2.0",
       talkDescription: "Vamos conversar sobre o método Design Sprint 2.0, quais as suas vantagens e em quais casos deve ser usado, no fim apresentaremos cases de projetos que foram desenvolvidos usando a metodologia.",
       personDescriptionCall: "Conheça a Kamila",
-      personDescription: "Facilitar o desenvolvimento de produtos e serviços mais inovadores tem sido minha missão. Sou designer de produtos, e trabalho no time de transformação digital da ioasys aplicando as metodologias e ferramentas do design no processo de inovação e desenvolvimento de produtos/serviços das empresas. Quer conversar comigo? Me pergunte sobre Design Thinking!",
+      personDescription: "Facilitar o desenvolvimento de produtos e serviços mais inovadores tem sido minha missão. Sou designer de produtos, e trabalho no time de transformação digital da ioasys aplicando as metodologias e ferramentas do design no processo de inovação e desenvolvimento de produtos/serviços das empresas. Vamos conversar sobre design thinking!",
       image: kamilarodrigues
     },
     {
@@ -30,6 +22,14 @@ const Talks = () => {
       personDescriptionCall: "Conheça o Diel",
       personDescription: "Compartilhar conhecimento tem sido uma das melhores maneiras de aprender, sou um Front-End engineer que trabalha remoto e adoro viajar pelo mundo. Quer iniciar uma conversa ? me pergunte sobre JS.",
       image: diel
+    },
+    {
+      person: "Tiago Drumond",
+      talk: "Como fazer seus logs parecerem mais bonitos",
+      talkDescription: "Como implementar Elasticsearch, Logstash, Syslog e Grafana para coletar seus logs e gerar uma interface bonita para os gestores, e quem sabe assim receber uma promoção. :D",
+      personDescriptionCall: "Conheça o Tiago",
+      personDescription: "Trabalha com TI a mais de 20 anos, e atualmente trabalha na ioasys como gestor de desenvolvimento e arquiteto.",
+      image: tiagodrumond
     },
     {
       person: "Hugo Ferreira e Gabriel Oliva",
