@@ -133,6 +133,17 @@
     right: 14%;
     top: 58%;
   }
+
+  .talk-column-a,
+  .talk-column-b {
+    padding: 0 0 4rem 0;
+  }
+
+  .talks-group {
+    padding: 3rem;
+    padding-bottom: 4rem;
+    background-color: red;
+  }
 }
 
 .double-take{
