@@ -96,7 +96,7 @@
   top: 122px;
 }
 
-@media (max-width: 411px) {
+@media (max-width: 700px) {
   .talk-column-a,
   .talk-column-b {
     display: flex;
@@ -121,6 +121,16 @@
 
   .person-name::before {
     left: 32px;
+  }
+
+  .photo-talk-b {
+    left: 56%;
+    top: 108px;
+  }
+
+  .photo-talk-a {
+    right: 14%;
+    top: 58%;
   }
 }
 
