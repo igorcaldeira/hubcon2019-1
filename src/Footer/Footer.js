@@ -13,8 +13,8 @@ const Footer = () => <section id="footer">
           email _ hubconevento@gmail.com
           <div className='content-left'>
             <p><b>APOIADORES _</b></p>
-            <img className='suport-image una-logo' src={una} />
-            <img className='suport-image ioasys-logo' src={ioasys} />
+            <img alt='una logo' className='suport-image una-logo' src={una} />
+            <img alt='ioasys logo' className='suport-image ioasys-logo' src={ioasys} />
           </div> 
         </div> 
       </div>
