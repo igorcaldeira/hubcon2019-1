@@ -8,7 +8,7 @@ const Hero = () => (
     <div className="container hero-container">
       <div className="hero-columns">
         <div className="logo-content">
-          <img src={logo} />
+          <img alt='logo' src={logo} />
           <div>
             <h6>2019 _ EDIÇÃO 2</h6>
           </div>
@@ -16,7 +16,7 @@ const Hero = () => (
         <div className="geom-content">
           <div className="formats">
             <div className="geometric-formats-big">
-              <img src={galaxy} />
+              <img alt='galaxia' src={galaxy} />
             </div>
             <div className="geometric-formats-small" />
             <div id="date-hubcon" />
