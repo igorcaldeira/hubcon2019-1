@@ -46,7 +46,7 @@ const Talks = () => {
       talk: "A importância de um API Gateway e API Management como estratégia de entrega de negócios como serviços",
       talkDescription: "Esta talk tem como objetivo demonstrar a importância de utilizar um bom API Gateway e um API Management para disponibilizar o acesso a informações de negócios em uma ponto comum, abstraindo o acesso aos microserviços disponíveis em nossa solução. Será utilizada como base na apresentação o Azure API Management para compor os exemplos e estratégias.",
       personDescriptionCall: "Conheça o Albert Tanure",
-      personDescription: "Albert Tanure, ou simplesmente Tanure, é bacharel em Sistemas de Informação e atualmente atua como Arquiteto de Soluções. Ele tem mais de 15 anos de experiência em desenvolvimento de software e é apaixonado por desenvolvimento móvel e arquitetura de software. Fundador do site Code FC, que tem como objetivo disseminar sua paixão por ajudar as pessoas e capacitá-las com artigos e informações técnicas das palestras que ministra.",
+      personDescription: "Albert Tanure, ou simplesmente Tanure, é Microsoft MVP, MTAC e Bacharel em Sistemas de Informação. Atualmente atua como Arquiteto de Soluções. Ele tem mais de 15 anos de experiência em desenvolvimento de software e é apaixonado por desenvolvimento móvel e arquitetura de software. Fundador do site Code FC, que tem como objetivo disseminar sua paixão por ajudar as pessoas e capacitá-las com artigos e informações técnicas das palestras que ministra.",
       image: tanure
     }
   ];
