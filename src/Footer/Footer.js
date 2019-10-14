@@ -9,7 +9,7 @@ const Footer = () => <section id="footer">
       <div className='content-left'>
         <div className='content'>
           <b>CONTATO _</b><br/>
-          Instagran _ @hubcon<br/>
+          Instagram _ @hubcon<br/>
           email _ hubconevento@gmail.com
           <div className='content-left'>
             <p><b>APOIADORES _</b></p>
