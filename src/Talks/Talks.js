@@ -3,6 +3,7 @@ import tiagodrumond from "./tiagodrumond.png";
 import kamilarodrigues from "./kamilarodrigues.jpg";
 import diel from "./diel.jpeg";
 import tanure from "./albert-tanure.jpg";
+import prates from "./prates.jpg";
 
 import "./Talks.css";
 
@@ -48,6 +49,14 @@ const Talks = () => {
       personDescriptionCall: "Conheça o Albert Tanure",
       personDescription: "Albert Tanure, ou simplesmente Tanure, é Microsoft MVP, MTAC e Bacharel em Sistemas de Informação. Atualmente atua como Arquiteto de Soluções. Ele tem mais de 15 anos de experiência em desenvolvimento de software e é apaixonado por desenvolvimento móvel e arquitetura de software. Fundador do site Code FC, que tem como objetivo disseminar sua paixão por ajudar as pessoas e capacitá-las com artigos e informações técnicas das palestras que ministra.",
       image: tanure
+    },
+    {
+      person: "Gabriel Prates",
+      talk: "Server-Side Rendering: Por quê? Como funciona? Precisa mesmo?",
+      talkDescription: "Na web, entregar uma experiência legal para o usuário em tempo hábil é um grande desafio! Vamos falar sobre como o SSR se propõem a ajudar e, para isso, precisamos entender: o que é critical path; o que de fato é SSR; como o code splitting pode ajudar; um pouco de como fazer com React; e alguns pontos a se observar durante a implementação; Precisamos entregar conteúdo, não só visual, mas também interativo, de forma rápida. Será que esse trabalho todo vale a pena?",
+      personDescriptionCall: "Conheça o Gabriel",
+      personDescription: "Gabriel Prates é formado em Gestão de TI e desenvolvedor frontend na Studio Sol, integrante do time Palco MP3. Apaixonado pela web, testes automatizados, Star Wars e jogos da Nintendo.",
+      image: prates
     }
   ];
   return (
