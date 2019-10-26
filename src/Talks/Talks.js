@@ -4,6 +4,7 @@ import kamilarodrigues from "./kamilarodrigues.jpg";
 import diel from "./diel.jpeg";
 import tanure from "./albert-tanure.jpg";
 import prates from "./prates.jpg";
+import douglas from "./douglas.png";
 
 import "./Talks.css";
 
@@ -48,7 +49,7 @@ const Talks = () => {
       talkDescription: "Esta talk tem como objetivo demonstrar a importância de utilizar um bom API Gateway e um API Management para disponibilizar o acesso a informações de negócios em uma ponto comum, abstraindo o acesso aos microserviços disponíveis em nossa solução. Será utilizada como base na apresentação o Azure API Management para compor os exemplos e estratégias.",
       personDescriptionCall: "Conheça o Albert Tanure",
       personDescription: "Albert Tanure, ou simplesmente Tanure, é Microsoft MVP, MTAC e Bacharel em Sistemas de Informação. Atualmente atua como Arquiteto de Soluções. Ele tem mais de 15 anos de experiência em desenvolvimento de software e é apaixonado por desenvolvimento móvel e arquitetura de software. Fundador do site Code FC, que tem como objetivo disseminar sua paixão por ajudar as pessoas e capacitá-las com artigos e informações técnicas das palestras que ministra.",
-      image: tanure
+      image: tanure,
     },
     {
       person: "Gabriel Prates",
@@ -56,7 +57,15 @@ const Talks = () => {
       talkDescription: "Na web, entregar uma experiência legal para o usuário em tempo hábil é um grande desafio! Vamos falar sobre como o SSR se propõem a ajudar e, para isso, precisamos entender: o que é critical path; o que de fato é SSR; como o code splitting pode ajudar; um pouco de como fazer com React; e alguns pontos a se observar durante a implementação; Precisamos entregar conteúdo, não só visual, mas também interativo, de forma rápida. Será que esse trabalho todo vale a pena?",
       personDescriptionCall: "Conheça o Gabriel",
       personDescription: "Gabriel Prates é formado em Gestão de TI e desenvolvedor frontend na Studio Sol, integrante do time Palco MP3. Apaixonado pela web, testes automatizados, Star Wars e jogos da Nintendo.",
-      image: prates
+      image: prates,
+    },
+    {
+      person: "Douglas Augusto",
+      talk: "Previsão do Tempo: Uma análise das principais tendências de Computação em Nuvem",
+      talkDescription: "Vamos falar da evolução dos recursos de infraestrutura e entrar em detalhes do atual cenário de recursos nativos de nuvem com containers, orquestradores, service mesh e serverless, um conjunto de ferramentas que possibilita que você desenvolva uma vez e rode a mesma aplicação onde quiser.",
+      personDescriptionCall: "Conheça o Douglas",
+      personDescription: "Douglas Augusto é apaixonado por Cloud Computing e Machine Learning, atualmente trabalhando como Arquiteto de Nuvem na Avenue Code, uma empresa norte-americana que fornece consultoria de tecnologia para grandes clientes. Em sua carreira, ele já participou de projetos inovadores para clientes como Coca Cola, FCA Group, entre outros. Ele é reconhecido como Google Developer Expert (GDE) para Google Cloud Platform e é mentor nas áreas de Computação em Nuvem e Aprendizado de Máquina no Google Launchpad, o programa de aceleração de Startups do Google. Ele ama comunidades e é o organizador do GDG João Monlevade, da Comunidade de Desenvolvedores do Google Cloud Belo Horizonte e São Paulo.",
+      image: douglas,
     }
   ];
   return (
