@@ -5,6 +5,7 @@ import diel from "./diel.jpeg";
 import tanure from "./albert-tanure.jpg";
 import prates from "./prates.jpg";
 import douglas from "./douglas.png";
+import guilherme from "./guilherme.jpeg";
 
 import "./Talks.css";
 
@@ -66,6 +67,14 @@ const Talks = () => {
       personDescriptionCall: "Conheça o Douglas",
       personDescription: "Douglas Augusto é apaixonado por Cloud Computing e Machine Learning, atualmente trabalhando como Arquiteto de Nuvem na Avenue Code, uma empresa norte-americana que fornece consultoria de tecnologia para grandes clientes. Em sua carreira, ele já participou de projetos inovadores para clientes como Coca Cola, FCA Group, entre outros. Ele é reconhecido como Google Developer Expert (GDE) para Google Cloud Platform e é mentor nas áreas de Computação em Nuvem e Aprendizado de Máquina no Google Launchpad, o programa de aceleração de Startups do Google. Ele ama comunidades e é o organizador do GDG João Monlevade, da Comunidade de Desenvolvedores do Google Cloud Belo Horizonte e São Paulo.",
       image: douglas,
+    },
+    {
+      person: "Guilherme Silva",
+      talk: "A sopa de letras de segurança em desenvolvimento e como descomplicar esse mundo",
+      talkDescription: "Não é comum falarmos sobre segurança durante o desenvolvimento de sistemas, afinal o time de segurança está fora do projeto, enviando listas e listas de requisitos complexos e subjetivos. Por isso vamos ver como as 'siglas' SAST, IAST, WAF, DAST, ASP, VS, OWASP, SDL, TM e etc, podem facilitar a inclusão da segurança no processo de desenvolvimento de sistemas.",
+      personDescriptionCall: "Conheça o Guilherme",
+      personDescription: "Gaúcho que mora em BH e há uns bons anos com Segurança da Informação, nunca desenvolveu uma aplicação inteira e tem a audácia de se dedicar há 3 anos em promover a prática de conceitos de segurança em times de desenvolvimento, para provar que segurança não é feita só pela área de segurança da informação.",
+      image: guilherme,
     }
   ];
   return (
