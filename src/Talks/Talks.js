@@ -6,6 +6,7 @@ import tanure from "./albert-tanure.jpg";
 import prates from "./prates.jpg";
 import douglas from "./douglas.png";
 import guilherme from "./guilherme.jpeg";
+import pam from "./pam.jpeg";
 
 import "./Talks.css";
 
@@ -75,7 +76,15 @@ const Talks = () => {
       personDescriptionCall: "Conheça o Guilherme",
       personDescription: "Gaúcho que mora em BH e há uns bons anos com Segurança da Informação, nunca desenvolveu uma aplicação inteira e tem a audácia de se dedicar há 3 anos em promover a prática de conceitos de segurança em times de desenvolvimento, para provar que segurança não é feita só pela área de segurança da informação.",
       image: guilherme,
-    }
+    },
+    {
+      person: "Pamella Teixeira",
+      talk: "Impactos da LGPD no mundo da Tecnologia",
+      talkDescription: "Vamos conversar sobre Proteção de dados na Pratica sem jurisdiquês. Como a nova lei de proteção de dados vai impactar no trabalho dos Devs e de que forma podemos amenizar.",
+      personDescriptionCall: "Conheça a Pamella",
+      personDescription: "Eu tranquilamente viajaria 360 dias do ano e os outros eu dormiria na minha cama, mas não descobri  uma forma de monetizar isso. Então, ao final da minha formação em Direito, resolvi deixar o mundo tradicional jurídico e embarquei em uma aventura no espaço tecnológico. E foi assim que eu me encontrei e me tornei assistente jurídica da maior HR Tech do Brasil que é a Sólides Tecnologia e também sou condutora dos projetos de Proteção de Dados e Segurança da Informação. Além disso, represento a empresa no Pacto Global da ONU ( achou chique né?). Vale lembrar que como uma ótima Sólidiana que sou, minha frase preferida é: Foguete não tem ré!",
+      image: pam,
+    },
   ];
   return (
     <section id="palestrantes">
