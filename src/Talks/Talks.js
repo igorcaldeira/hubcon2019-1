@@ -30,8 +30,8 @@ const Talks = () => {
     },
     {
       person: "Tiago Drumond",
-      talk: "Como fazer seus logs parecerem mais bonitos",
-      talkDescription: "Como implementar Elasticsearch, Logstash, Syslog e Grafana para coletar seus logs e gerar uma interface bonita para os gestores, e quem sabe assim receber uma promoção. :D",
+      talk: "Desafiando métodos de segurança: utilização de técnicas de reflexão para mostrar que nem tudo é o que parece.",
+      talkDescription: "Valores privados, protegidos? Será? Criptografias para proteção? Será? Irei falar de reflexão e de técnicas de criptografia ECB e CBC, e citar algumas falhas de view state.",
       personDescriptionCall: "Conheça o Tiago",
       personDescription: "Trabalha com TI a mais de 20 anos, e atualmente trabalha na ioasys como gestor de desenvolvimento e arquiteto.",
       image: tiagodrumond
