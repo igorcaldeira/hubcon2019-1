@@ -100,7 +100,9 @@ const Talks = () => {
       <div className="container">
         <div className="talks-group">
           <div><center><h2>Veja as talks confirmadas!</h2></center><br /><br /></div>
-          {talks.map((item, index) => {
+          {talks
+          .sort((a, b) => (a.person > b.person) - (a.person < b.person))
+          .map((item, index) => {
             const ImageTalk = () => !item.special ? <img src={item.image} alt={item.person + " foto"} className='personPhoto' /> : item.image;
             const DescriptionTalk = () => (
               <div className="talk-text">
