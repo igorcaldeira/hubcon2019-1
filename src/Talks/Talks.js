@@ -7,6 +7,7 @@ import prates from "./prates.jpg";
 import douglas from "./douglas.png";
 import guilherme from "./guilherme.jpeg";
 import pam from "./pam.jpeg";
+import laryssa from "./laryssa.jpg";
 
 import "./Talks.css";
 
@@ -85,12 +86,20 @@ const Talks = () => {
       personDescription: "Eu tranquilamente viajaria 360 dias do ano e os outros eu dormiria na minha cama, mas não descobri  uma forma de monetizar isso. Então, ao final da minha formação em Direito, resolvi deixar o mundo tradicional jurídico e embarquei em uma aventura no espaço tecnológico. E foi assim que eu me encontrei e me tornei assistente jurídica da maior HR Tech do Brasil que é a Sólides Tecnologia e também sou condutora dos projetos de Proteção de Dados e Segurança da Informação. Além disso, represento a empresa no Pacto Global da ONU ( achou chique né?). Vale lembrar que como uma ótima Sólidiana que sou, minha frase preferida é: Foguete não tem ré!",
       image: pam,
     },
+    {
+      person: "Laryssa Magalhães",
+      talk: "Compilando Web Components com Stencil JS",
+      talkDescription: "Nessa talk irei abordar o uso de Stencil JS para a criação de Web Components. Vale a pena? Quais são as vantagens e desvantagens? Mostrarei também um caso real de uso.",
+      personDescriptionCall: "Conheça a Laryssa",
+      personDescription: "Frontend, mineira, apaixonada por filmes/séries, coorganizadora do FEMUG-MG, fã de Harry Potter, ama doguinhos , apoia a diversidade e inclusão de minorias na tecnologia <3",
+      image: laryssa,
+    },
   ];
   return (
     <section id="palestrantes">
       <div className="container">
         <div className="talks-group">
-          <div><center><h2>Veja as talks já confirmadas!</h2></center><br /><br /></div>
+          <div><center><h2>Veja as talks confirmadas!</h2></center><br /><br /></div>
           {talks.map((item, index) => {
             const ImageTalk = () => !item.special ? <img src={item.image} alt={item.person + " foto"} className='personPhoto' /> : item.image;
             const DescriptionTalk = () => (
@@ -126,7 +135,6 @@ const Talks = () => {
               </div>
             );
           })}
-          <center><h2>Em breve, mais novidades e conteúdos no evento!</h2></center>
         </div>
       </div>
     </section>
