@@ -23,6 +23,7 @@
 .talks-group {
   padding: 10rem;
   padding-bottom: 5rem;
+  padding-top: 0;
 }
 
 .person-name {
@@ -153,4 +154,14 @@
   background-size: 50%, 57%;
   overflow: hidden;
   filter: grayscale(1);
+}
+
+.branding{
+  padding: 20px;
+}
+
+.suport-brand{
+  padding: 30px;
+  padding-bottom: 0px;
+  height: 40px;
 }

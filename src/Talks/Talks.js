@@ -1,4 +1,6 @@
 import React from "react";
+import "./Talks.css";
+
 import tiagodrumond from "./tiagodrumond.png";
 import kamilarodrigues from "./kamilarodrigues.jpg";
 import diel from "./diel.jpeg";
@@ -9,7 +11,9 @@ import guilherme from "./guilherme.jpeg";
 import pam from "./pam.jpeg";
 import laryssa from "./laryssa.jpg";
 
-import "./Talks.css";
+import una from './una.png';
+import ioasys from './ioasys.png';
+import nata from './nata.png';
 
 const Talks = () => {
   const talks = [
@@ -98,8 +102,19 @@ const Talks = () => {
   return (
     <section id="palestrantes">
       <div className="container">
+        <div><center><br /><br /><h2>Apoiadores</h2></center></div>
+        <p>Conheça as instituições incríveis que apoiam e possibilitam este evento acontecer!</p>
+        <div className="branding">
+          <a href='https://www.una.br'><img alt='una logo' className='suport-brand' src={una} /></a>
+          <a href='https://www.ioasys.com.br'><img alt='ioasys logo' className='suport-brand' src={ioasys} /></a>
+          <a href='https://www.nata.house'><img alt='nata house logo' className='suport-brand' src={nata} /></a>
+        </div>
+      </div>
+      <div className="container">
         <div className="talks-group">
-          <div><center><h2>Veja as talks confirmadas!</h2></center><br /><br /></div>
+        <div><center><br /><br /><h2>Programação</h2></center></div>
+        <p>Conheça as talks que compõem o evento!</p>
+        <br /><br /><br />
           {talks
           .sort((a, b) => (a.person > b.person) - (a.person < b.person))
           .map((item, index) => {

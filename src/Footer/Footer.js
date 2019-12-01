@@ -1,7 +1,9 @@
 import React from 'react';
+import './Footer.css';
+
 import una from './una.png';
 import ioasys from './ioasys.png';
-import './Footer.css';
+import nata from './nata.png';
 
 const Footer = () => <section id="footer">
   <div className='container'>
@@ -13,8 +15,9 @@ const Footer = () => <section id="footer">
           email _ hubconevento@gmail.com
           <div className='content-left'>
             <p><b>APOIADORES _</b></p>
-            <img alt='una logo' className='suport-image una-logo' src={una} />
-            <img alt='ioasys logo' className='suport-image ioasys-logo' src={ioasys} />
+            <a href='https://www.una.br'><img alt='una logo' className='suport-image' src={una} /></a>
+            <a href='https://www.ioasys.com.br'><img alt='ioasys logo' className='suport-image' src={ioasys} /></a>
+            <a href='https://www.nata.house'><img alt='nata house logo' className='suport-image' src={nata} /></a>
           </div> 
         </div> 
       </div>
